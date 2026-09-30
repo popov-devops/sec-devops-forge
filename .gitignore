@@ -1,0 +1,31 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+
+# Keep Terraform provider lock file
+!.terraform.lock.hcl
+
+# Ansible
+*.retry
+.vault_password
+vault-password
+
+# Secrets
+.env
+.env.*
+*.secret
+*.pem
+*.key
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
